@@ -133,7 +133,7 @@ img {
 }
 .footer {
   width: 100%;
-  /*border-top: 2px dashed #C0C0C0;*/
+  border-top: 2px dashed #C0C0C0;
   background: #FFEBCD;
 }
 .footer p {
@@ -176,7 +176,7 @@ img {
 @media (max-width: 500px) {
   .home .content-section .img-content {
     width: 100%;
-    padding: 0;
+    padding: 5px;
   }
 }
 .home .content-section .img-content img {
