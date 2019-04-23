@@ -145,11 +145,19 @@ img {
   text-align: center;
   color: #212529;
   font-size: 1.6rem;
-  padding: 20px;
+  padding: 10px;
+}
+
+.footer .icons {
+  text-align: center;
+  color: #212529;
+  font-size: 1.6rem;
+  padding: 8px;
+  text-decoration: none;
 }
 .home .intro {
   padding: 90px 0 10px;
-  border-bottom: 2px dashed #C0C0C0;
+  /* border-bottom: 2px dashed #C0C0C0; */
 }
 .home .intro img {
   max-width: 100%;
@@ -230,7 +238,8 @@ img {
   padding-top: 30px;
   border-top: 2px dashed #C0C0C0;
   display: flex;
-  justify-content: space-between;
+  align-content: center;
+  justify-content: space-around;
 }
 @media (max-width: 500px) {
   .home .content-pick {
@@ -271,18 +280,18 @@ img {
   background: #FFFFFF;
   color: #17A2B8;
 }
-contact .intro {
+/* about .intro {
   padding: 90px 0 10px;
   border-bottom: 2px dashed #C0C0C0;
 }
-contact .intro img {
+about .intro img {
   max-width: 100%;
   height: auto;
 }
-contact .intro h2 {
+about .intro h2 {
   margin-top: 20px;
 }
-contact .contact-form {
+about .contact-form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -311,6 +320,6 @@ contact .contact-form .send-btn {
   padding: 5px;
   border-radius: 5px;
 }
-contact .contact-form .send-btn:hover {
+about .contact-form .send-btn:hover {
   background: lightseagreen;
-}
+} */

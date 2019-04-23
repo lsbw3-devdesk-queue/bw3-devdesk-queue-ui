@@ -1,13 +1,15 @@
 // Your code goes here
 window.addEventListener('load', (event) => {
-    busInImg.classList.replace('hidden', 'slideRight')
+    event.target.style.textTransform = "uppercase";
+    campaingImg.classList.replace('hidden', 'slideRight');
 })
 
 window.addEventListener('resize', (event) => {
+    event.target.style.textTransform = "uppercase";
     console.log(`You're resizing the window`);
 })
 
-const busInImg = document.querySelector('.hidden');
+const campaingImg = document.querySelector('.hidden');
 
 const mainHeader = document.querySelector('h1');
 mainHeader.addEventListener('click', (event) => {
@@ -29,14 +31,14 @@ navLinks.addEventListener('mouseover', (event) => {
 })
 
 
-const funBus = document.querySelector('.fun-bus-img');
-funBus.addEventListener('dblclick', (event) => {
-    event.target.setAttribute ("src", "img/funbus.png");
+const compimg = document.querySelector('.cetteup-72915-unsplash.jpg');
+compimg.addEventListener('dblclick', (event) => {
+    event.target.setAttribute ("src", "img/cetteup-72915-unsplash.jpg");
     event.stopPropagation();
 })
 
-funBus.addEventListener('wheel', (event) => {
-    event.target.setAttribute ("src", "img/fun-bus.jpg");
+compimg.addEventListener('wheel', (event) => {
+    event.target.setAttribute ("src", "img/cetteup-72915-unsplash.jpg");
 })
 
 const subscribe = document.querySelector('#email');

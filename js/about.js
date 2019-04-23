@@ -1,13 +1,15 @@
 // Your code goes here
 window.addEventListener('load', (event) => {
-    busInImg.classList.replace('hidden', 'slideRight')
+    event.target.style.fontWeight = "bold";
+    CampaingImg.classList.replace('hidden', 'slideRight')
 })
 
 window.addEventListener('resize', (event) => {
+    event.target.style.fontWeight = "bold";
     console.log(`You're resizing the window`);
 })
 
-const busInImg = document.querySelector('.hidden');
+const CampaingImg = document.querySelector('.hidden');
 
 const mainHeader = document.querySelector('h1');
 mainHeader.addEventListener('click', (event) => {
@@ -23,19 +25,19 @@ const navLinks = document.querySelector('.nav');
 navLinks.addEventListener('mouseover', (event) => {
     event.preventDefault();
     if (event.target.tagName === "A") {
-    event.target.style.textShadow = "2px 2px 2px coral";
+    event.target.style.textShadow = "2px 2px 2px lightseagreen";
     setTimeout(function(){event.target.style.textShadow = "none"}, 300);
     }
 })
 
 
-const funBus = document.querySelector('.fun-bus-img');
-funBus.addEventListener('dblclick', (event) => {
-    event.target.setAttribute ("src", "img/funbus.png");
+const compimg = document.querySelector('.cetteup-72915-unsplash.jpg');
+compimg.addEventListener('dblclick', (event) => {
+    event.target.setAttribute ("src", "img/cetteup-72915-unsplash.jpg");
 })
 
-funBus.addEventListener('wheel', (event) => {
-    event.target.setAttribute ("src", "img/fun-bus.jpg");
+compimg.addEventListener('wheel', (event) => {
+    event.target.setAttribute ("src", "img/cetteup-72915-unsplash.jpg");
 })
 
 const sendBtn = document.querySelector('button');
@@ -46,11 +48,13 @@ sendBtn.addEventListener('click', (event) => {
 
 const selectText = document.querySelector('.textarea');
 selectText.addEventListener('select', (event) => {
+    event.target.style.fontWeight = "bold";
     alert(`This content is protected by copyright law. Copying this contact is a felony and will result in loss of limbs and your ISP.`);
 })
 
 var dragNDrop = document.querySelector('.dragndrop');
 dragNDrop.addEventListener('drag', (event) => {
+    event.target.style.fontWeight = "bold";
     console.log("You're a drag!");
 }, false);
 

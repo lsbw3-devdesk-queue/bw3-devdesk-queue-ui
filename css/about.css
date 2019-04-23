@@ -53,15 +53,10 @@ table {
 html {
   font-size: 62.5%;
 }
-html,
-body {
+html,body {
   font-family: 'Roboto', sans-serif;
 }
-h1,
-h2,
-h3,
-h4,
-h5 {
+h1,h2,h3,h4,h5 {
   font-family: 'PT Sans', sans-serif;
 }
 h1 {
@@ -138,7 +133,7 @@ img {
 }
 .footer {
   width: 100%;
-  border-top: 2px dashed #C0C0C0;
+  /*border-top: 2px dashed #C0C0C0;*/
   background: #FFEBCD;
 }
 .footer p {
@@ -228,7 +223,7 @@ img {
 }
 .home .content-pick {
   padding-top: 30px;
-  border-top: 2px dashed #C0C0C0;
+  /*border-top: 2px dashed #C0C0C0;*/
   display: flex;
   justify-content: space-between;
 }
