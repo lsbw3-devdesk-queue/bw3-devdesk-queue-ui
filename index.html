@@ -1,140 +1,90 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
 
+<html lang="en">
 <head>
-  <title>DevDesk</title>
-  <link rel="stortcut icon" href="./favicon.ico">
-  <link rel="stylesheet" type="text/css" href="./CSS/index.css" />
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-  <script src="./components/Tabs/Tabs.js" async></script>
-  <!-- <script src="./components/Carousel/Carousel.js" async></script> -->
+  <meta charset="utf-8">
+
+  <title>DevDesk Queue</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
+
+  <script src="js/index.js" async></script>
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
 </head>
 
 <body>
 
-  <!-- TOP BAR COMPONENT -->
-  <div class="top-bar">
-    <div class="container">
-      <div class="container-center">
-        <span>Home</span><span>About Us <a href="about-us.html" ></a> </span> <span>Contact Us</span><span>FAQs</span>
-      </div>
-      <div class="container-right">
-        <span>LOG IN</span>
-      </div>
-    </div> 
-  </div>
-
-  <!-- HEADER COMPONENT -->
-  <div class="header">
-    <h1>DevDesk Queue</h1>
-  </div>
-
-  <!-- TABS COMPONENT -->
-  <div class="tabs">
-    <div class="topics">
-      <span class="title"> TOPICS:</span>
-      <div data-tab="all" class="tab active-tab">ALL</div>
-      <div data-tab="javascript" class="tab">Create a Ticket</div>
-      <div data-tab="technology" class="tab">Ticket Status</div>
+  <header class="main-navigation">
+    <div class="container nav-container">
+      <h1 class="logo-heading">DevDesk Queue</h1>
+      <nav class="nav">
+        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#">About Us</a>
+        <a class="nav-link" href="#">Create Ticket</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
     </div>
-  </div>
-
-  <div class="banner">
-    <img src="./assets/campaign-creators-1167000-unsplash.jpg" />
-  </div>
- 
-   <!-- CARD COMPONENTS -->
-    <div class="card" data-tab="javascript">
-      <div class="headline">ES8: The Next Step in the Evolution of Javascript and What it Means For Your Projects</div>
-      <div class="author">
-        <div class="img-container">
-          <img src="./assets/campaign-creators-1167000-unsplash.jpg" />
-        </div>
-        <span>Lorem Ipsum</span>
+  </header>
+     
+  <div class="container home">
+    <header class="intro">
+      <img src="img/cetteup-72915-unsplash.jpg" alt="computer">
+      <h2>Welcome to DevDesk Queue</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </header>
+    <section class="content-section">
+      <div class="text-content">
+        <h2>Who We Are</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
-    </div>
-
-    <div class="card" data-tab="javascript">
-      <div class="headline">Type Coercion: Why Does NaN !== NaN? and Other Strange Occurrences</div>
-      <div class="author">
-        <div class="img-container">
-          <img src="./assets/cetteup-72915-unsplash.jpg" />
-        </div>
-        <span>Lorem Ipsum</span>
+      <div class="img-content">
+        <img src="img/corinne-kutz-211251-unsplash.jpg" alt="top-view-computer">
       </div>
-    </div>
-
-    <div class="card" data-tab="bootstrap">
-      <div class="headline">Bootstrap 5: Get a Sneak Peak at all the New Features</div>
-      <div class="author">
-        <div class="img-container">
-          <img src="./assets/campaign-creators-1167000-unsplash.jpg" />
-        </div>
-        <span>Lorem Ipsum</span>
+    </section>
+    <section class="content-section inverse-content">
+      <div class="img-content">
+          <img src="img/hans-vivek-208969-unsplash.jpg" class="img-fluid rounded" alt="mobile">
       </div>
-    </div>
-
-    <div class="card" data-tab="technology">
-      <div class="headline">Step by Step on How to create a ticket</div>
-      <div class="author">
-        <div class="img-container">
-          <img src="./assets/corinne-kutz-211251-unsplash.jpg" />
-        </div>
-        <span>Lorem Ipsum</span>
+      <div class="text-content">
+        <h2>Lorem ipsum dolor</h2>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
-    </div>
+     
+    </section>
+    <section class="content-destination">
+      <h2>Lorem ipsum dolor</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="img/explorenation-1040417-unsplash.jpg" alt="Second slide">
+    </section>
+    <section class="content-pick">
 
-    <div class="card" data-tab="javascript">
-      <div class="headline">When to Rest, When to Spread: Why There Are Two Meanings Behind '...'</div>
-      <div class="author">
-        <div class="img-container">
-          <img src="./assets/hans-vivek-208969-unsplash.jpg" />
-        </div>
-        <span>Lorem Ipsum</span>
+      <div class="destination">
+        <h4>Lorem ipsum dolor</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="btn">Create your Ticket</div>
       </div>
-    </div>
+      <div class="destination">
+        <h4>Lorem ipsum dolor</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="btn">Ticket Status</div>
+      </div>
+      <div class="destination">
+        <h4>Lorem ipsum dolor</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="btn">FAQs</div>
+      </div>
+    </section>
+  </div><!-- container -->
 
-    <div class="card" data-tab="css">
-      <div class="headline">Meet the Team</div>
-      <div class="author">
-        <div class="img-container">
-          <img src="./assets/hans-vivek-208969-unsplash.jpg" />
-        </div>
-        <span>Lorem Ipsum</span>
-      </div>
-    </div>
+  <footer class="footer">
+    <p>Copyright Lorem ipsum dolor 2018</p>
+  </footer>
 
-    <div class="card" data-tab="html">
-      <div class="headline">5 tips to create a clean HTML code</div>
-      <div class="author">
-        <div class="img-container">
-          <img src="./assets/hans-vivek-208969-unsplash.jpg" />
-        </div>
-        <span>Lorem Ipsum</span>
-      </div>
-    </div>
-
-    <div class="card" data-tab="html">
-      <div class="headline">Learn more about HTML</div>
-      <div class="author">
-        <div class="img-container">
-          <img src="./assets/hans-vivek-208969-unsplash.jpg" />
-        </div>
-        <span>Lorem Ipsum</span>
-      </div>
-    </div>
-
-    <div class="card" data-tab="html">
-      <div class="headline">HTML 101: The Basics</div>
-      <div class="author">
-        <div class="img-container">
-          <img src="./assets/hans-vivek-208969-unsplash.jpg" />
-        </div>
-        <span>Lorem Ipsum</span>
-      </div>
-    </div>
-  </div>
 </body>
-
 </html>
