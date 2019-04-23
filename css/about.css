@@ -138,7 +138,7 @@ img {
 }
 .footer {
   width: 100%;
-  border-top: 2px dashed #C0C0C0;
+  /*border-top: 2px dashed #C0C0C0;*/
   background: #FFEBCD;
 }
 .footer p {
@@ -228,7 +228,7 @@ img {
 }
 .home .content-pick {
   padding-top: 30px;
-  border-top: 2px dashed #C0C0C0;
+  /*border-top: 2px dashed #C0C0C0;*/
   display: flex;
   justify-content: space-between;
 }
