@@ -48,11 +48,13 @@ sendBtn.addEventListener('click', (event) => {
 
 const selectText = document.querySelector('.textarea');
 selectText.addEventListener('select', (event) => {
+    event.target.style.fontWeight = "bold";
     alert(`This content is protected by copyright law. Copying this contact is a felony and will result in loss of limbs and your ISP.`);
 })
 
 var dragNDrop = document.querySelector('.dragndrop');
 dragNDrop.addEventListener('drag', (event) => {
+    event.target.style.fontWeight = "bold";
     console.log("You're a drag!");
 }, false);
 
