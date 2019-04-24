@@ -24,7 +24,7 @@ mainHeader.addEventListener('click', (event) => {
 const navLinks = document.querySelector('.nav');
 navLinks.addEventListener('mouseover', (event) => {
     if (event.target.tagName === "A") {
-    event.target.style.textShadow = "2px 2px 2px coral";
+    event.target.style.textShadow = "2px 2px 2px lightseagreen";
     setTimeout(function(){event.target.style.textShadow = "none"}, 300);
     }
     event.preventDefault();

@@ -138,8 +138,8 @@ img {
 }
 .footer {
   width: 100%;
-  border-top: 2px dashed #C0C0C0;
-  background: #FFEBCD;
+  border-top: 2px solid #C0C0C0;
+  background: lightcyan;
 }
 .footer p {
   text-align: center;
@@ -148,13 +148,6 @@ img {
   padding: 10px;
 }
 
-.footer .icons {
-  text-align: center;
-  color: #212529;
-  font-size: 1.6rem;
-  padding: 8px;
-  text-decoration: none;
-}
 .home .intro {
   padding: 90px 0 10px;
   /* border-bottom: 2px dashed #C0C0C0; */
@@ -280,46 +273,5 @@ img {
   background: #FFFFFF;
   color: #17A2B8;
 }
-/* about .intro {
-  padding: 90px 0 10px;
-  border-bottom: 2px dashed #C0C0C0;
-}
-about .intro img {
-  max-width: 100%;
-  height: auto;
-}
-about .intro h2 {
-  margin-top: 20px;
-}
-about .contact-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 60%;
-  height: 340px;
-  margin: 20px auto;
-}
-contact .contact-form h2 {
-  align-self: center;
-}
-contact .contact-form p {
-  align-self: center;
-}
-contact .contact-form .dragndrop {
-  height: auto;
-  width: 60%;
-  align-self: center;
-}
-contact .contact-form .textarea {
-  resize: none;
-  height: 100px;
-}
-contact .contact-form .send-btn {
-  width: 15%;
-  align-self: center;
-  padding: 5px;
-  border-radius: 5px;
-}
-about .contact-form .send-btn:hover {
-  background: lightseagreen;
-} */
+
+

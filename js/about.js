@@ -55,7 +55,7 @@ selectText.addEventListener('select', (event) => {
 var dragNDrop = document.querySelector('.dragndrop');
 dragNDrop.addEventListener('drag', (event) => {
     event.target.style.fontWeight = "bold";
-    console.log("You're a drag!");
+    console.log("You're not ready!");
 }, false);
 
 selectText.addEventListener('drop', (event) => {
