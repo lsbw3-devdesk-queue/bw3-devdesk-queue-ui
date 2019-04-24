@@ -1,8 +1,9 @@
 // Your code goes here
-window.addEventListener('load', (event) => {
-    event.target.style.textTransform = "uppercase";
-    campaingImg.classList.replace('hidden', 'slideRight');
-})
+// window.addEventListener('load', (event) => {
+//     console.log(load);
+//     event.target.style.textTransform = "uppercase";
+//     campaingImg.classList.replace('hidden', 'slideRight');
+// })
 
 window.addEventListener('resize', (event) => {
     event.target.style.textTransform = "uppercase";
@@ -31,7 +32,8 @@ navLinks.addEventListener('mouseover', (event) => {
 })
 
 
-const compimg = document.querySelector('.cetteup-72915-unsplash.jpg');
+const compimg = document.querySelector('.compimg');
+console.log(compimg);
 compimg.addEventListener('dblclick', (event) => {
     event.target.setAttribute ("src", "img/cetteup-72915-unsplash.jpg");
     event.stopPropagation();
@@ -41,40 +43,29 @@ compimg.addEventListener('wheel', (event) => {
     event.target.setAttribute ("src", "img/cetteup-72915-unsplash.jpg");
 })
 
-const subscribe = document.querySelector('#email');
-subscribe.addEventListener('keydown', (event) => {
-    console.log(`${event.key}`);
+// subscribe.addEventListener('focus', (event) => {
+//     event.target.style.background = "yellow";
+// }, true);
+
+// subscribe.addEventListener('blur', (event) => {
+//     event.target.style.background = "";    
+//   }, true);
+
+// const submitEmailBtn = document.querySelector('.subscribe');
+// submitEmailBtn.addEventListener('click', (event) => {
+//     alert(`WARNING! ALL YOUR EMAIL ARE BELONG TO US`)
+//     event.stopPropagation();
+// })
+
+const Btn1 = document.querySelector('.btn-1');
+Btn1.addEventListener('mouseenter', (event) => {
+    event.target.alert(`Are you sure you don't want help?`)
 })
 
-subscribe.addEventListener('focus', (event) => {
-    event.target.style.background = "yellow";
-}, true);
-
-subscribe.addEventListener('blur', (event) => {
-    event.target.style.background = "";    
-  }, true);
-
-const submitEmailBtn = document.querySelector('.subscribe');
-submitEmailBtn.addEventListener('click', (event) => {
-    alert(`WARNING! ALL YOUR EMAIL ARE BELONG TO US`)
-    event.stopPropagation();
-})
-
-const signUpBtn1 = document.querySelector('#btn-1');
-signUpBtn1.addEventListener('mouseenter', (event) => {
-    alert(`Are you sure you want to delete your harddrive?`)
-})
-
-const signUpBtn2 = document.querySelector('#btn-2');
-signUpBtn2.addEventListener('mouseenter', (event) => {
+const Btn2 = document.querySelector('.btn-2');
+    Btn2.addEventListener('mouseenter', (event) => {
     event.target.style.transform = "scale(2)";
     setTimeout(function(){event.target.style.transform = ""}, 3000);
-})
-
-const signUpBtn3 = document.querySelector('#btn-3');
-signUpBtn3.addEventListener('dblclick', (event) => {
-    event.target.textContent = "THE CAKE IS A LIE"
-    event.stopPropagation();
 })
 
 const home = document.querySelector('.home');
