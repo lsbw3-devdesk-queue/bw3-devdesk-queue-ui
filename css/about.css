@@ -143,13 +143,13 @@ img {
 }
 .footer .icons {
   text-align: center;
-  color: #212529;
+  color: black;
   font-size: 1.6rem;
   padding: 4px;
 }
 a:link {
   text-decoration: none;
-  color: #212529;
+  color: black;
 }
 a:visited {
   color: purple;
