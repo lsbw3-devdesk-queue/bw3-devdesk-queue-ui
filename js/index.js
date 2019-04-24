@@ -1,10 +1,3 @@
-// Your code goes here
-// window.addEventListener('load', (event) => {
-//     console.log(load);
-//     event.target.style.textTransform = "uppercase";
-//     campaingImg.classList.replace('hidden', 'slideRight');
-// })
-
 window.addEventListener('resize', (event) => {
     event.target.style.textTransform = "uppercase";
     console.log(`You're resizing the window`);
@@ -42,20 +35,6 @@ compimg.addEventListener('dblclick', (event) => {
 compimg.addEventListener('wheel', (event) => {
     event.target.setAttribute ("src", "img/cetteup-72915-unsplash.jpg");
 })
-
-// subscribe.addEventListener('focus', (event) => {
-//     event.target.style.background = "yellow";
-// }, true);
-
-// subscribe.addEventListener('blur', (event) => {
-//     event.target.style.background = "";    
-//   }, true);
-
-// const submitEmailBtn = document.querySelector('.subscribe');
-// submitEmailBtn.addEventListener('click', (event) => {
-//     alert(`WARNING! ALL YOUR EMAIL ARE BELONG TO US`)
-//     event.stopPropagation();
-// })
 
 const Btn1 = document.querySelector('.btn-1');
 Btn1.addEventListener('mouseenter', (event) => {
