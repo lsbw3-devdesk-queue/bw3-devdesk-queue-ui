@@ -14,11 +14,12 @@ mainHeader.addEventListener('click', (event) => {
 
 const Btn1 = document.querySelector('#btn-1');
     Btn1.addEventListener('click', (event) => {
-    alert(`Are you sure you don't want help?`);
+    alert(`This is the first step to resolve your problem`);
     location.href='about.html';
 })
 
 const Btn2 = document.querySelector('#btn-2');
     Btn2.addEventListener('click', (event) => {
-    alert(`The FAQ Page is Under Construction`);
+    alert(`Let's find more`);
+    location.href='https://github.com/lsbw3-devdesk-queue';
 })
