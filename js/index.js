@@ -14,6 +14,10 @@ mainHeader.addEventListener('click', (event) => {
 
 const Btn1 = document.querySelector('#btn-1');
     Btn1.addEventListener('click', (event) => {
+    setTimeout(5000);
+    messages = ['hello','hola','aloha'];
+    messages.map(console.log);
+    setTimeout(5000);
     alert(`This is the first step to resolve your problem`);
     location.href='about.html';
 })
