@@ -57,11 +57,7 @@ html,
 body {
   font-family: 'Roboto', sans-serif;
 }
-h1,
-h2,
-h3,
-h4,
-h5 {
+h1,h2,h3,h4,h5 {
   font-family: 'PT Sans', sans-serif;
 }
 h1 {
@@ -249,7 +245,7 @@ img {
     margin: 0 auto 30px;
   }
 }
-.home .content-pick .destination .btn {
+.destination .btn {
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
