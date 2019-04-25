@@ -141,7 +141,7 @@ img {
   font-size: 1.6rem;
   padding: 20px;
 }
-.footer .icons {
+/* .footer .icons {
   text-align: center;
   color: black;
   font-size: 1.6rem;
@@ -153,7 +153,7 @@ a:link {
 }
 a:visited {
   color: purple;
-}
+} */
 .home .intro {
   padding: 90px 0 10px;
 }
@@ -173,16 +173,19 @@ a:visited {
 .home .content-section .text-content {
   width: 48%;
   padding-right: 1%;
+
 }
 @media (max-width: 500px) {
   .home .content-section .text-content {
     width: 100%;
-    padding: 0;
+    padding: 5px;
   }
 }
 .home .content-section .img-content {
   width: 48%;
   padding-left: 1%;
+  /* padding-top: 1%; */
+  padding-bottom: 5%;
 }
 @media (max-width: 500px) {
   .home .content-section .img-content {
