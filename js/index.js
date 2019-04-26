@@ -14,7 +14,7 @@ mainHeader.addEventListener('click', (event) => {
 
 const Btn1 = document.querySelector('#btn-1');
     Btn1.addEventListener('click', (event) => {
-    messages = ['hello','hola','aloha'];
+    messages = ['hello, ask a question'];
     messages.map(console.log);
     alert(`This is the first step to resolve your problem`);
     location.href='about.html';
